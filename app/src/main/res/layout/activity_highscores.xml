@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".HighScoresActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:stretchColumns="*"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:id="@+id/hsRow1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/hsNamePl0" android:text="@string/defaultName"
+                android:layout_weight="1" android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/hsResPl0" android:text="@string/defaultVal"
+                android:layout_weight="1" android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/hsRow2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/hsNamePl1" android:text="@string/defaultName"
+                android:layout_weight="1" android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/hsResPl1" android:text="@string/defaultVal"
+                android:layout_weight="0.1" android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/hsRow3"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/hsNamePl2" android:text="@string/defaultName"
+                android:layout_weight="0.1" android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/hsResPl2" android:text="@string/defaultVal"
+                android:layout_weight="1" android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/hsRow4"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/hsNamePl3" android:text="@string/defaultName"
+                android:layout_weight="1" android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/hsResPl3" android:text="@string/defaultVal"
+                android:layout_weight="1" android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/hsRow5"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/hsNamePl4" android:text="@string/defaultName"
+                android:layout_weight="1" android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/hsResPl4" android:text="@string/defaultVal"
+                android:layout_weight="1" android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/hsRow6"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/hsNamePl5" android:text="@string/defaultName"
+                android:layout_weight="1" android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/hsResPl5" android:text="@string/defaultVal"
+                android:layout_weight="1" android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/hsRow7"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/hsNamePl6" android:text="@string/defaultName"
+                android:layout_weight="1" android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/hsResPl6" android:text="@string/defaultVal"
+                android:layout_weight="1" android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/hsRow8"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/hsNamePl7" android:text="@string/defaultName"
+                android:layout_weight="1" android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/hsResPl7" android:text="@string/defaultVal"
+                android:layout_weight="1" android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/hsRow9"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/hsNamePl8" android:text="@string/defaultName"
+                android:layout_weight="1" android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/hsResPl8" android:text="@string/defaultVal"
+                android:layout_weight="0.1" android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/hsRow10"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/hsNamePl9" android:text="@string/defaultName"
+                android:layout_weight="1" android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/hsResPl9" android:text="@string/defaultVal"
+                android:layout_weight="0.1" android:background="#d3d3d3"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

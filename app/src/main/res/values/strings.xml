@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyneSweeper</string>
+    <string name="welcomeMsg">Welcome to MyneSweeper!!!</string>
+    <string name="enterName">Please, enter your Name</string>
+    <string name="submitName">Ok</string>
+    <string name="newGame">Start New Game</string>
+    <string name="restartGame">Restart Game</string>
+    <string name="quitGame">Quit the Game</string>
+    <string name="defaultName">Unknown</string>
+    <string name="defaultVal">0</string>
+</resources>
